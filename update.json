@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "channels": {
+    "beta": {
+      "version": "0.1.1",
+      "published": "2026-10-22T00:43:51Z",
+      "notes": "**Full Changelog**: https://github.com/JavacrafterDevelopment/TempCraftBackup/commits/v0.1.1",
+      "page": "https://github.com/JavacrafterDevelopment/TempCraftBackup/releases/tag/v0.1.1",
+      "package": {
+        "url": "https://github.com/JavacrafterDevelopment/TempCraftBackup/releases/download/v0.1.1/TempCraftBackup-windows-x64.zip",
+        "size": 15531,
+        "sha256": "6504cdf9f56e19b657d8373356b85f48e0c17fbe2288e18d3eeff1970a02ce0f"
+      },
+      "exe": "TempCraftBackup.exe",
+      "files": [
+        {
+          "path": "TempCraftBackup.exe",
+          "size": 31744,
+          "sha256": "608931809d319444fd6d57f907ff59467c11dfac01c43457296d06e9e15cc622"
+        }
+      ]
+    },
+    "stable": {
+      "version": "0.1.1",
+      "published": "2026-10-22T00:43:51Z",
+      "notes": "**Full Changelog**: https://github.com/JavacrafterDevelopment/TempCraftBackup/commits/v0.1.1",
+      "page": "https://github.com/JavacrafterDevelopment/TempCraftBackup/releases/tag/v0.1.1",
+      "package": {
+        "url": "https://github.com/JavacrafterDevelopment/TempCraftBackup/releases/download/v0.1.1/TempCraftBackup-windows-x64.zip",
+        "size": 15531,
+        "sha256": "6504cdf9f56e19b657d8373356b85f48e0c17fbe2288e18d3eeff1970a02ce0f"
+      },
+      "exe": "TempCraftBackup.exe",
+      "files": [
+        {
+          "path": "TempCraftBackup.exe",
+          "size": 31744,
+          "sha256": "608931809d319444fd6d57f907ff59467c11dfac01c43457296d06e9e15cc622"
+        }
+      ]
+    }
+  }
+}
