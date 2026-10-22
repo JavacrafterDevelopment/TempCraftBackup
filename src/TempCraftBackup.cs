@@ -534,8 +534,10 @@ namespace TempCraftBackup
 
         void RunBackup(List<CraftApp> apps, string folder, bool sevenZip)
         {
-            string stamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
-            string scratch = Path.Combine(Path.GetTempPath(), ScratchPrefix + stamp);
+            DateTime now = DateTime.Now;
+            string scratch = Path.Combine(Path.GetTempPath(), ScratchPrefix + now.ToString("yyyy-MM-dd_HH-mm-ss"));
+            // 12-hour time like 5-41PM; Windows doesn't allow ':' in file names.
+            string stamp = now.ToString("yyyy-MM-dd_h-mmtt", System.Globalization.CultureInfo.InvariantCulture);
             string stage = Path.Combine(scratch, "stage");
             string ext = sevenZip ? ".7z" : ".zip";
             string target = UniquePath(Path.Combine(folder, ArchiveBase + "_" + stamp + ext));

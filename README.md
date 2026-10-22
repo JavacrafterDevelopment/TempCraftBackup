@@ -11,7 +11,7 @@ Press **Back up now** and it:
    [Launcher](https://github.com/JavacrafterDevelopment/Launcher)'s catalog
    (falling back to a built-in list), so apps added to the Launcher are backed up too;
 2. downloads each app's default branch from GitHub;
-3. packs them into `ArtCraftApps_<date>.7z` in the folder you chose, with one folder
+3. packs them into `ArtCraftApps_<date>_<time>.7z` (for example `ArtCraftApps_2026-10-21_5-41PM.7z`) in the folder you chose, with one folder
    of source code per app and a `BACKUP-INFO.txt` listing each repo and commit.
 
 The 7z is written by Windows' own `tar.exe` (LZMA2). On a Windows whose `tar.exe`
